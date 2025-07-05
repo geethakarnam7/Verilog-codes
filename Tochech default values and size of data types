@@ -1,0 +1,12 @@
+module test;
+reg a;
+wire b;
+integer c;
+real d;
+realtime e;
+
+initial
+begin
+$display("a=%b, b=%b,c=%b,d=%b,e=%b",a,b,c,d,e);
+end
+endmodule
